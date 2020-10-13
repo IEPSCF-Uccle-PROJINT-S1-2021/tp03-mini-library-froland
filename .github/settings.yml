@@ -1,0 +1,20 @@
+repository:
+  # See https://developer.github.com/v3/repos/#edit for all available settings.
+
+  # A short description of the repository that will show up on GitHub
+  description: TP03 - mini bibliothèque
+
+  # A URL with more information about the repository
+  homepage: http://edu.iepscf-uccle.be/moodle/mod/workshop/view.php?id=15989
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: false
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: false
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: false
+
+  # Updates the default branch for this repository.
+  default_branch: master

@@ -1,0 +1,8 @@
+{
+  "name": "tp03_mini_library",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm app.js"
+  }
+}
