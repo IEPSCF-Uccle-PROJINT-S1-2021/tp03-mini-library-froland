@@ -17,4 +17,4 @@ repository:
   has_downloads: false
 
   # Updates the default branch for this repository.
-  default_branch: master
+  default_branch: main
