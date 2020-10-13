@@ -1,0 +1,16 @@
+extends layout.pug
+
+block content
+  p Voici les livres de la catégorie #{category}.
+  table.table.table-striped
+    caption #{books.length} livres trouvés
+    thead.thead-dark
+      tr.d-flex
+        th.col-4(scope="col") Auteur
+        th.col-8(scope="col") Titre
+    tbody
+      each book in books
+        tr.d-flex
+          td.col-4= book.author
+          td.col-8= book.title
+  a.btn.btn-outline-secondary(href="/books/search") Retour

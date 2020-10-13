@@ -1,0 +1,10 @@
+extends layout.pug
+
+block content
+  form(action="/books/list", method="post")
+    .form-group
+      label(for="category") Catégorie
+      select.form-control#category(name="category")
+        each category in categories
+          option(value=category)= category
+    button.btn.btn-primary(type="submit") Rechercher
